@@ -128,3 +128,23 @@ text-align: left;
 #why-choose-us {
     background-color: #D9526F;
 }
+
+.pricing-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--white);
+    color: var(--dark-gray);
+}
+
+.pricing-table th {
+    background-color: var(--yellow);
+    font-weight: bold;
+    padding: 10px;
+    font-size: 0.85em;
+    text-transform: uppercase;
+}
+
+.pricing-table td {
+    padding: 10px;
+    border-bottom: 1px solid var(--yellow);
+}
