@@ -27,6 +27,21 @@ header, nav, main, footer {
     text-align: center;
 }
 
+h1, h2 {
+    font-family: 'Kavoon', serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 0.9em;
+    font-weight: bold;
+    font-style: italic;
+}
+
 .box {
     background-color: var(--white);
     color: var(--dark-gray);
