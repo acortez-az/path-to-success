@@ -2,7 +2,7 @@
 
 
 :root {
-    --teal :#4CA7C0;
+    --teal:#4CA7C0;
     --purple: #484FB7;
     --lavender: #6B8FE7;
     --yellow: #E9BB57; 
@@ -17,13 +17,22 @@ body {
     background-color: var(--lavender);
     justify-content: center;
     padding: 20px 0;
+    margin: 0;
 
+}
+
+.page-container {
+    max-width: 480px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 header, nav, main, footer {
     background-color: var(--purple);
     width: 100%;
     padding: 20px;
+    box-sizing: border-box;
     text-align: center;
 }
 
@@ -31,11 +40,17 @@ h1, h2 {
     font-family: 'Kavoon', serif;
     font-weight: normal;
     text-align: left;
-    font-size: 35px;
+
 }
 
 h1 {
     font-size: 3em;
+    text-align: center;
+    margin: 15px 0;
+}
+
+h2 {
+    font-size: 2em;
 }
 
 header p {
@@ -61,10 +76,13 @@ nav {
 nav h2 {
     font-size: 1.5em;
     color: var(--dark-gray);
+    text-align: center;
 }
 
 nav ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 nav ul li {
