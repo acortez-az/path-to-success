@@ -79,6 +79,15 @@ nav ul li a {
     font-size: 0.9em;
     text-transform: uppercase;
 }
+
+main h3 {
+font-family: 'Inter', sans-serif;
+font-size: 1.5em;
+color: var(--yellow);
+text-align: left;
+
+}
+
 .box h4 {
     font-size: 1.15em;
     color: var(--purple);
