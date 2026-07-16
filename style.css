@@ -30,6 +30,8 @@ header, nav, main, footer {
 h1, h2 {
     font-family: 'Kavoon', serif;
     font-weight: normal;
+    text-align: left;
+    font-size: 35px;
 }
 
 h1 {
