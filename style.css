@@ -36,6 +36,34 @@ header, nav, main, footer {
     text-align: left;
 }
 
+nav {
+    background-color: var(--yellow);
+    padding: 15px;
+}
+
+nav h2 {
+    font-size: 1.5em;
+    color: var(--purple);
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    background-color: var(--white);
+    margin: 8px 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: var(--purple);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
 .box h4 {
     font-size: 1.15em;
     color: var(--purple);
